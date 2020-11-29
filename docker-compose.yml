@@ -4,8 +4,8 @@ services:
     build: .
     restart: unless-stopped
     environment:
-      - DISCORD_TOKEN=__YOUR_DISCORD_API_KEY__
-      - GOOGLE_APPLICATION_CREDENTIALS=key.json
+      - DISCORD_TOKEN=NzgyNDk0NTI4OTY3MTQ3NTMy.X8NA0Q.cbGixjyVTPqwZssPTAdYIzLF2C4
+      - GOOGLE_APPLICATION_CREDENTIALS=./key.json
       - DB_FILE=db/speecher.db
     volumes:
       - "./db:/workspace/db"
